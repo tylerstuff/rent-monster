@@ -80,6 +80,7 @@ export default function Searchbar() {
           name="search"
           type="search"
           onChange={handleChange}
+          autoComplete="off"
           value={query}
           placeholder="Search Condo"
           className="block w-full rounded-md border-0 bg-white dark:bg-zinc-900 dark:text-white py-1.5 pl-10 pr-3 text-gray-00 ring-1 ring-inset ring-gray-300 dark:ring-gray-700 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-rose-500 sm:text-sm sm:leading-6"
