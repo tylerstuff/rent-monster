@@ -31,7 +31,8 @@ export default function Searchbar() {
           .textSearch("name", `%${searchQuery}%`, {
             type: "phrase",
             config: "english",
-          });
+          })
+          .limit(4);
 
         if (!error && data) {
           setSuggestions(data);
