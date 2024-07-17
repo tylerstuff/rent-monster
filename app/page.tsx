@@ -1,5 +1,4 @@
-import HomeLanding from "@/components/pages/HomeLanding";
-
+import HomeLanding from "@/components/landing/HomeLanding";
 
 export default function Home() {
   return (
